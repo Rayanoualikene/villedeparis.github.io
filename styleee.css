@@ -1,0 +1,138 @@
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: grey;
+	color: #FFF;
+	padding: 10px;
+}
+
+header h1 {
+	font-size: 54px;
+	margin: 10px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.hero {
+	background-image: url(images/paris.jpg);
+	background-size: cover;
+	color: white;
+	padding: 200px;
+	text-align: center;
+}
+
+.hero h2 {
+	font-size: 48px;
+	margin: 0;
+	color: white;
+}
+
+.hero p {
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+.btn {
+	background-color: #FFF;
+	border: 2px solid #FFF;
+	color: darkslategrey;
+	display: inline-block;
+	font-size: 18px;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+	background-color: grey;
+	color: #FFF;
+}
+
+
+.services {
+	background-color: #EEE;
+	padding: 50px;
+    text-align: center;
+}
+
+.services h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.services ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.services li {
+	margin-bottom: 10px;
+}
+
+.services a {
+	color: #1E90FF;
+	text-decoration: none;
+}
+
+.services a:hover {
+	text-decoration: underline;
+}
+
+
+.news {
+	padding: 50px;
+}
+
+.news h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.news li {
+	margin-bottom: 30px;
+}
+
+.news h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.news p {
+	margin: 0;
+}
+
+footer {
+	background-color: grey;
+	color: #FFF;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
